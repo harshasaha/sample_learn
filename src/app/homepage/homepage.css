@@ -1,0 +1,34 @@
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+ background-color: black;
+}
+.selector_hld{
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    margin: 60px auto 60px auto;
+}
+
+.card .card-img{
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.card{
+    margin-bottom: 20px;
+    width: 18rem;
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+
+@media (max-width:800px) {
+    .card{
+        width: 22rem;
+    }
+}
